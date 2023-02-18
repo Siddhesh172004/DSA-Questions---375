@@ -9,7 +9,7 @@
 int main() {
  
 int i,j,temp;
-int a[5]={55,5,44};
+int a[3]={55,5,44};
    
 int n=3;
 for(i=0;i<n;i++){
@@ -34,7 +34,8 @@ for(i=0;i<n;i++){
                 a[j+1]=temp;
         }
 
-        
+      
+
     }
 //     for(i=0;i<5;i++){
 //     printf("%d",a[i]);
@@ -43,18 +44,19 @@ for(i=0;i<n;i++){
 
     printf("\n");
 }
+
 for(i=0;i<n;i++){
     printf("%d",a[i]);
     printf("\n");
 }
 
 
-int Neww = sizeof(a);
-int Ne = sizeof(a[0]);
-int N = sizeof(a) / sizeof(a[0]);
-printf(" N = %d",N);
-printf("Newww = %d",Neww);
-printf("Ne = %d",Ne);
+// int Neww = sizeof(a);
+// int Ne = sizeof(a[0]);
+// int N = sizeof(a) / sizeof(a[0]);
+// printf(" N = %d",N);
+// printf("Newww = %d",Neww);
+// printf("Ne = %d",Ne);
     return 0;
 }
 
